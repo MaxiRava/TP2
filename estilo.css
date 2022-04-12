@@ -1,0 +1,13 @@
+body {
+    background-color: midnightblue;
+    color: aliceblue;
+    font-size: 150%;
+    }   
+
+h1 {
+    text-decoration: underline;
+    color: orangered;
+}
+.pie-de-imagen {
+    font-size: 80%;   
+}
