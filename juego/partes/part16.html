@@ -16,6 +16,8 @@
 
 <script type="text/javascript">
 
+
+
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -186,7 +188,7 @@ function create ()
 
     // Boton para comenzar a jugar
     const boton = new Button(this.cameras.main.centerX, this.cameras.main.centerY + this.cameras.main.centerY/3, 'Play', this,); () =>{
-        this.scene.restart();
+        this.scene.start();
     }
     
 }
